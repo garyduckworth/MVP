@@ -1,7 +1,7 @@
 SUMMARY
 =======
 
-MVP Math is a RESTful API used for avaluating BEDMAS calculations via GET and POST requests
+MVP Math is a RESTful API used for evaluating BEDMAS calculations via GET and POST requests
 
 For example, API can be used to evaluate expressions such as "2*(7-3)"
 
