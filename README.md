@@ -1,7 +1,7 @@
 SUMMARY
 =======
 
-MVP Math is a RESTful API used for avaluating BEDMAS calculations via POST requests
+MVP Math is a RESTful API used for avaluating BEDMAS calculations via GET and POST requests
 
 For example, API can be used to evaluate expressions such as "2*(7-3)"
 
@@ -47,13 +47,13 @@ precision  : Optional number defining the number of significant digits to be for
 QUERY EXAMPLES
 ==============
 
-POST Http Request examples:
+Http Request examples:
 
-https://<server>/api/math/?expression=2*(7-3)
+https://server:port/api/math/?expression=2*(7-3)
   
-https://<server>/api/math/?expression=2%2F3
+https://server:port/api/math/?expression=2%2F3
 
-https://<server>/api/math/?expression=2%2F3&precision=3
+https://server:port/api/math/?expression=2%2F3&precision=3
 
 
 
@@ -62,7 +62,7 @@ WEB APPLICATION
 
 The web application can be used for running calculations by entering expression and precision details in Non-URL encoded format.
 
-Once the details have been entered, users can then click the "Calculate" button to view the evaluated result
+Once the details have been entered, users can then click the "Get Data" or "Post Data" buttons to view the evaluated result
 
 
 
@@ -82,3 +82,5 @@ Design considerations include:
 5. Math API will attempt to use legacy product methods if any errors occur in line with user stories
 
 6. Math API will report any errors through ILogger and by returning errors back to the user
+
+7. Open source math links are stored in appsettings so they can be easily updated
