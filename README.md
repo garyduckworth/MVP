@@ -29,7 +29,7 @@ EXECUTION
 
 Execution is limited to 10 seconds with a maximum of 10,000 request per day
 
-Execution can tested through the web application detailed below of by using Swagger
+Execution can tested through the web application detailed below or through the use of Swagger
 
 For example, Swagger can be invoked when running the API by typing https://localhost:port/swagger
 
