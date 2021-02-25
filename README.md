@@ -75,7 +75,7 @@ Design considerations include:
 
 2. Web application and Swagger have been incorporated for testing
 
-3. Angular JS has been incorporated to call Math API via POST requests
+3. Angular JS has been incorporated to call Math API via GET and POST requests
 
 4. Math API uses single "RunCalculation" to call open source APIs in line with technical discussions
 
