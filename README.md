@@ -35,7 +35,6 @@ For example, Swagger can be invoked when running the API by typing https://local
 
 
 
-================
 QUERY PARAMETERS
 ================
 
