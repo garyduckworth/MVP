@@ -50,7 +50,9 @@ QUERY EXAMPLES
 POST Http Request examples:
 
 https://<server>/api/math/?expression=2*(7-3)
+  
 https://<server>/api/math/?expression=2%2F3
+
 https://<server>/api/math/?expression=2%2F3&precision=3
 
 
