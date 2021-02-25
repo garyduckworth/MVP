@@ -1,6 +1,4 @@
-=======
 SUMMARY
-=======
 
 MVP Math is a RESTful API used for avaluating BEDMAS calculations via POST requests
 
