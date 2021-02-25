@@ -1,4 +1,5 @@
 SUMMARY
+=======
 
 MVP Math is a RESTful API used for avaluating BEDMAS calculations via POST requests
 
@@ -23,7 +24,6 @@ The following criteria is met with the MVP Math API:
 NOTE: MVP Math replaces legacy "A Cool Calculation Company Saas Product"
 
 
-=========
 EXECUTION
 =========
 
@@ -45,7 +45,6 @@ precision  : Optional number defining the number of significant digits to be for
 
 
 
-==============
 QUERY EXAMPLES
 ==============
 
@@ -57,7 +56,6 @@ https://<server>/api/math/?expression=2%2F3&precision=3
 
 
 
-===============
 WEB APPLICATION
 ===============
 
@@ -67,7 +65,6 @@ Once the details have been entered, users can then click the "Calculate" button 
 
 
 
-=====================
 DESIGN CONSIDERATIONS
 =====================
 
