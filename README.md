@@ -12,7 +12,7 @@ The following criteria is met with the MVP Math API:
    * Additions
    * Subtractions
    * Multiplications
-   * Divisiotns
+   * Divisions
 
 2. Multiple operations can be chained together
 
