@@ -33,6 +33,7 @@ Execution can tested through the web application detailed below or through the u
 
 For example, Swagger can be invoked when running the API by typing https://localhost:port/swagger
 
+Testing can also be performed directly on the API itself by setting it as the startup project, running the application, and entering the query examples below in address bar. This will then show the result in the browser.
 
 
 QUERY PARAMETERS
