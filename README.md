@@ -27,13 +27,11 @@ NOTE: MVP Math replaces legacy "A Cool Calculation Company Saas Product"
 EXECUTION
 =========
 
-Execution is limited to 10 seconds with a maximum of 10,000 request per day
-
 Execution can tested through the web application detailed below or through the use of Swagger
 
-For example, Swagger can be invoked when running the API by typing https://localhost:port/swagger
+For example, Swagger can be invoked when running the API by typing https://localhost:<port>/swagger
 
-Testing can also be performed directly on the API itself by setting it as the startup project, running the application, and entering the query examples below in address bar. This will then show the result in the browser.
+Testing can also be performed directly on the API itself by setting it as the startup project, running the application, and entering the query examples below in address bar. This will then show the result in the browser. Executions are limited to 10 seconds with a maximum of 10,000 requests per day.
 
 
 QUERY PARAMETERS
@@ -50,20 +48,18 @@ QUERY EXAMPLES
 
 Http Request examples:
 
-https://server:port/api/math/?expression=2*(7-3)
+https://localhost:<port>/api/math/?expression=2*(7-3)
   
-https://server:port/api/math/?expression=2%2F3
+https://localhost:<port>/api/math/?expression=2%2F3
 
-https://server:port/api/math/?expression=2%2F3&precision=3
+https://localhost:<port>/api/math/?expression=2%2F3&precision=3
 
 
 
 WEB APPLICATION
 ===============
 
-The web application can be used for running calculations by entering expression and precision details in Non-URL encoded format.
-
-Once the details have been entered, users can then click the "Get Data" or "Post Data" buttons to view the evaluated result
+The web application can be used for running calculations by entering expression and precision details in Non-URL encoded format. Once the details have been entered, users can then click the "Get Data" or "Post Data" buttons to view the evaluated result
 
 
 
