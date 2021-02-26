@@ -29,7 +29,7 @@ EXECUTION
 
 Execution can tested through the web application detailed below or through the use of Swagger
 
-For example, Swagger can be invoked when running the API by aadding "/swagger" to the URL address
+For example, Swagger can be invoked when running the API by adding "/swagger" to the URL address (See Examples)
 
 Testing can also be performed directly on the API itself by setting it as the startup project, running the application, and entering the query examples below in address bar. This will then show the result in the browser. Executions are limited to 10 seconds with a maximum of 10,000 requests per day.
 
@@ -47,6 +47,8 @@ QUERY EXAMPLES
 ==============
 
 Http Request examples:
+
+https://localhost:port/swagger
 
 https://localhost:port/api/math/?expression=2*(7-3)
   
