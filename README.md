@@ -18,8 +18,7 @@ The following criteria is met with the MVP Math API:
 
 3. BEDMAS order of operation will be applied to expressions
 
-4. Calculations shall be performed using the MVP Math algorithm.
-   If execution fails API will attempt to use legacy algorithms.
+4. Calculations will use MVP Math algorithm, If execution fails API will use legacy algorithms.
 
 NOTE: MVP Math replaces legacy "A Cool Calculation Company Saas Product"
 
