@@ -20,7 +20,7 @@ The following criteria is met with the MVP Math API:
 
 4. Calculations will use MVP Math algorithm, If execution fails API will use legacy algorithms.
 
-NOTE: MVP Math replaces legacy "A Cool Calculation Company Saas Product"
+NOTE: MVP Math replaces legacy Saas product
 
 
 EXECUTION
